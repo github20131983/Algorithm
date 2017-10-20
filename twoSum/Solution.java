@@ -2,7 +2,7 @@ package twoSum;
 
 import java.util.HashMap;
 import java.util.Map;
-//map<key,value>
+// map<key,value>
 public class Solution {
   public int[] twoSum(int[] nums, int target){
 	  int result[]=new int[2];
