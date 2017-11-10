@@ -1,5 +1,5 @@
 package mergeTwoSortedLists;
-//µÝ¹é½â¾ö
+
 public class Solution {
 public ListNode mergeTwoSorterLists(ListNode l1,ListNode l2){
 	if(l1==null)
