@@ -37,8 +37,8 @@ public ListNode mergeTwoSorterLists(ListNode l1,ListNode l2){
 	  Solution s=new Solution();
 	  ListNode ls=s.mergeTwoSorterLists(l1[0], l2[0]);
 	  while(ls!=null){
-		  System.out.println(ls.val);
-		  ls=ls.next;
+		 System.out.println(ls.val);
+		 ls=ls.next;
 	  }
   }
 }
