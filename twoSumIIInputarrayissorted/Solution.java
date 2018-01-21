@@ -21,6 +21,6 @@ public int[] twoSum(int[] numbers, int target) {
     	int[] b={2, 7, 11, 15};
     	int a[]=s.twoSum(b, 18);
     	for(int i=0;i<a.length;i++)
-    	   System.out.println(a[i]);
+    	    System.out.println(a[i]);
     }
 }
