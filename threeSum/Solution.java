@@ -16,10 +16,8 @@ public List<List<Integer>> threeSum(int[] nums) {
     		while(left<right){
         		if(nums[left]+nums[right]==sum){
         			res.add(Arrays.asList(nums[i],nums[left],nums[right]));
-        			while(left<right&&nums[left]==nums[left+1])left++;
-        			while(left<right&&nums[right]==nums[right-1])right--;
-        			left++;
-        			right--;
+        			while(left<right&&nums[left++]==nums[left]);
+        			while(left<right&&nums[right--]==nums[right]);
         		}
         		else if(nums[left]+nums[right]>sum)right--;
         		else left++;
